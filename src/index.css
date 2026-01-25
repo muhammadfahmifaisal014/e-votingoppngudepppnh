@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 43 238 121; /* Neon green */
+    --color-background-dark: 10 20 15; /* Dark forest green/black */
+    --color-surface-dark: 20 35 25; /* Slightly lighter surface */
+    --color-text-secondary: 148 163 184; /* Slate 400 */
+  }
+
+  body {
+    @apply bg-[#0a140f] text-white overflow-x-hidden;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#0a140f];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#234832] rounded-full hover:bg-primary/50 transition-colors;
+}
+
+/* Animations */
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 0.3; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes shine {
+  0% { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(200%) skewX(-15deg); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Custom Utilities */
+.text-glow {
+  text-shadow: 0 0 20px rgba(43, 238, 121, 0.5);
+}
+
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
