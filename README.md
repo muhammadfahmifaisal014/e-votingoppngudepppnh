@@ -8,6 +8,18 @@
 
 ---
 
+## 🌐 Live Demo & Video Tutorial
+
+### 🔗 Link Demo Aplikasi
+Cobalah aplikasi secara langsung melalui link berikut:
+👉 **[https://evotingponpesnurulhuda.netlify.app/](https://evotingponpesnurulhuda.netlify.app/)**
+
+### 📹 Video Tutorial Penggunaan
+Simak panduan lengkap cara penggunaan aplikasi (untuk santri & panitia) di sini:
+👉 **[Tonton Video di YouTube](https://youtu.be/ZuktEYKbzwY?si=dfFqWk03qZLeIID5)**
+
+---
+
 ## ✨ Fitur Unggulan
 
 ### 🗳️ Sistem Pemilihan Cerdas (Smart Voting System)
