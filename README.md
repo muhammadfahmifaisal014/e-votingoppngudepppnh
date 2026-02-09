@@ -1,46 +1,54 @@
-# E-Voting OPPN & GUDEP - PPNH Malati
+# 🗳️ E-Voting OPPN & GUDEP - PPNH Malati
 
 ![Project Banner](https://img.shields.io/badge/PPNH-E_Voting_System-green?style=for-the-badge&logo=react)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-**E-Voting OPPN & GUDEP** adalah aplikasi pemungutan suara berbasis web (*web-based*) yang dirancang khusus untuk memodernisasi proses demokrasi di lingkungan **Pondok Pesantren Nurul Huda Malati**. Aplikasi ini digunakan untuk pemilihan ketua **OPPN (Organisasi Pelajar Pesantren Nurul Huda)** Putra & Putri serta kepengurusan **GUDEP (Gugus Depan)**.
-
-Proyek ini bertujuan untuk menciptakan sistem pemilihan yang **Efisien**, **Akurat**, dan **Transparan** dengan menggantikan surat suara kertas menjadi sistem digital yang modern.
-
----
-
-## ✨ Fitur Utama (Key Features)
-
-### 🗳️ Bilik Suara Virtual (Voting System)
-*   **Token Unik**: Validasi pemilih menggunakan token khusus untuk memastikan "Satu Santri, Satu Suara".
-*   **Antarmuka User-Friendly**: Desain intuitif memudahkan santri memilih kandidat OPPN Putra, OPPN Putri, dan GUDEP.
-*   **Profil Kandidat**: Menampilkan foto serta Visi & Misi setiap kandidat untuk membantu pemilih menentukan pilihan.
-*   **Konfirmasi Pilihan**: Fitur review sebelum kirim suara untuk mencegah kesalahan pilih.
-
-### 📊 Real-Time Dashboard (Quick Count)
-*   **Live Counting**: Penghitungan suara otomatis detik itu juga setelah pemilih mengirimkan hak suaranya.
-*   **Visualisasi Data**: Grafik interaktif (menggunakan Recharts) yang menampilkan perolehan suara secara *real-time*.
-*   **Admin Access**: Halaman khusus panitia yang dilindungi password untuk memantau jalannya pemilihan.
-*   **Statistik Partisipasi**: Memantau jumlah suara masuk dan tingkat partisipasi pemilih.
+**E-Voting OPPN & GUDEP** adalah platform pemilihan umum digital modern yang dirancang khusus untuk lingkungan **Pondok Pesantren Nurul Huda Malati**. Aplikasi ini mentransformasi proses demokrasi santri menjadi lebih **Efisien**, **Akurat**, dan **Transparan** dengan menggantikan metode konvensional berbasis kertas.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan (Tech Stack)
+## ✨ Fitur Unggulan
 
-Aplikasi ini dibangun menggunakan teknologi web modern untuk performa yang cepat dan ringan:
+### 🗳️ Sistem Pemilihan Cerdas (Smart Voting System)
+- **Keamanan Terjamin**: Validasi pemilih menggunakan **Token Unik** sekali pakai untuk menjamin prinsip "Satu Santri, Satu Suara".
+- **Antarmuka Intuitif**: Termudahnya akses pemilihan untuk semua jenjang usia santri dengan desain yang ramah pengguna.
+- **Informasi Kandidat Lengkap**: Profil detail, foto, serta Visi & Misi setiap kandidat tersedia langsung di bilik suara.
+- **Konfirmasi Pilihan**: Mekanisme verifikasi ganda sebelum pengiriman suara untuk meminimalisir kesalahan memilih.
 
-*   **Frontend Framework**: [React](https://react.dev/)
-*   **Build Tool**: [Vite](https://vitejs.dev/)
-*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-*   **Icons**: [Lucide React](https://lucide.dev/)
-*   **Charting**: [Recharts](https://recharts.org/)
-*   **Routing**: [React Router](https://reactrouter.com/)
-*   **Language**: TypeScript
+### 📊 Real-Time Quick Count Dashboard
+- **Penghitungan Live**: Saksikan perolehan suara bertambah secara *real-time* detik demi detik.
+- **Data Visual**: Grafik interaktif yang menyajikan statistik perolehan suara dengan jelas dan menarik.
+- **Admin Panel**: Dashboard khusus panitia dengan keamanan berlapis untuk manajemen data kandidat dan pemilih.
+- **Analitik Partisipasi**: Pantau tingkat partisipasi pemilih secara langsung.
 
 ---
 
-## 🚀 Cara Menjalankan (Installation & Setup)
+## 🛠️ Teknologi (Tech Stack)
 
-Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer lokal Anda:
+Dibangun dengan teknologi web terkini untuk performa maksimal:
+
+| Kategori | Teknologi |
+|----------|-----------|
+| **Frontend** | [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) |
+| **Build Tool** | [Vite](https://vitejs.dev/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Icons** | [Lucide React](https://lucide.dev/) |
+| **Charts** | [Recharts](https://recharts.org/) |
+| **Routing** | [React Router](https://reactrouter.com/) |
+
+---
+
+## 🚀 Panduan Instalasi (Getting Started)
+
+Ikuti langkah mudah berikut untuk menjalankan proyek di komputer lokal Anda:
+
+### Prasyarat
+Pastikan Anda telah menginstal:
+- [Node.js](https://nodejs.org/) (versi terbaru disarankan)
+- [Git](https://git-scm.com/)
+
+### Langkah Instalasi
 
 1.  **Clone Repository**
     ```bash
@@ -49,16 +57,15 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer lokal Anda:
     ```
 
 2.  **Install Dependencies**
-    Pastikan Anda sudah menginstall [Node.js](https://nodejs.org/).
     ```bash
     npm install
     ```
 
-3.  **Jalankan Server Development**
+3.  **Jalankan Mode Pengembangan**
     ```bash
     npm run dev
     ```
-    Aplikasi akan berjalan di `http://localhost:5173`.
+    Buka browser dan kunjungi `http://localhost:5173` untuk melihat aplikasi.
 
 4.  **Build untuk Produksi**
     ```bash
@@ -68,27 +75,46 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di komputer lokal Anda:
 
 ---
 
-## 📖 Panduan Penggunaan (User Guide)
+## 📂 Struktur Proyek
 
-### Alur Pemilihan bagi Santri:
-1.  **Login**: Masukkan **Token Unik** yang diberikan panitia pada halaman awal.
-2.  **Pilih Kandidat**:
-    *   Pilih Ketua **OPPN Putra**.
-    *   Pilih Ketua **OPPN Putri**.
-    *   Pilih Ketua **GUDEP**.
-    *   *(Klik foto kandidat untuk melihat Visi & Misi)*.
-3.  **Konfirmasi**: Periksa kembali pilihan Anda di halaman konfirmasi.
-4.  **Selesai**: Tekan tombol **"Kirim Suara"**. Terima kasih telah berpartisipasi!
+```
+evoting-oppn-gudep/
+├── src/
+│   ├── components/   # Komponen React yang dapat digunakan kembali
+│   ├── pages/        # Halaman utama aplikasi
+│   ├── assets/       # Gambar, icon, dan aset statis
+│   └── utils/        # Fungsi bantuan dan logika umum
+├── public/           # File statis publik
+└── ...
+```
 
 ---
 
-## 👥 Kredit & Apresiasi
+## 🤝 Kontribusi
 
-Proyek ini dipersembahkan untuk keluarga besar **Pondok Pesantren Nurul Huda Malati**.
+Kontribusi sangat terbuka! Jika Anda ingin meningkatkan fitur atau memperbaiki bug:
 
-**Tim Pengembang & Panitia:**
-*   Pondok Pesantren Nurul Huda Malati
-*   Panitia Pemilihan OPPN & GUDEP
+1.  Fork repository ini.
+2.  Buat branch fitur baru (`git checkout -b fitur-keren`).
+3.  Commit perubahan Anda (`git commit -m 'Menambahkan fitur keren'`).
+4.  Push ke branch (`git push origin fitur-keren`).
+5.  Buat Pull Request.
+
+---
+
+## 📄 Lisensi
+
+Didistribusikan di bawah lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
+
+---
+
+## 📞 Kontak & Kredit
+
+**Pengembang Utama:** [Muhammad Fahmi Faisal](https://github.com/MuhammadFahmiFaisal)
+
+Dipersembahkan untuk:
+**Pondok Pesantren Nurul Huda Malati**
+*Panitia Pemilihan OPPN & GUDEP*
 
 ---
 *Dibuat dengan ❤️ untuk kemajuan demokrasi santri.*
